@@ -39,6 +39,8 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
+    SteamVR_Editor.dll:
+    - Valve.VR.SteamVR_UnitySettingsWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -107,99 +109,99 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 11292}
+      Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11390}
     - Class: 114
-      Script: {instanceID: 11388}
-    - Class: 114
-      Script: {instanceID: 11446}
-    - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11442}
     - Class: 114
       Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11514}
+    - Class: 114
+      Script: {instanceID: 11554}
+    - Class: 114
+      Script: {instanceID: 11592}
     - Class: 114
       Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11614}
-    - Class: 114
-      Script: {instanceID: 11650}
-    - Class: 114
       Script: {instanceID: 11662}
     - Class: 114
-      Script: {instanceID: 11716}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11718}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 11772}
     - Class: 114
-      Script: {instanceID: 12012}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12288}
+      Script: {instanceID: 12064}
     - Class: 114
-      Script: {instanceID: 12314}
+      Script: {instanceID: 12068}
     - Class: 114
-      Script: {instanceID: 12418}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 12454}
+      Script: {instanceID: 12326}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12372}
     - Class: 114
-      Script: {instanceID: 12686}
+      Script: {instanceID: 12476}
     - Class: 114
-      Script: {instanceID: 12824}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12826}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 12916}
+      Script: {instanceID: 12684}
     - Class: 114
-      Script: {instanceID: 12920}
+      Script: {instanceID: 12744}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12882}
     - Class: 114
-      Script: {instanceID: 12960}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 12998}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13146}
+      Script: {instanceID: 12974}
     - Class: 114
-      Script: {instanceID: 13164}
+      Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 13262}
+      Script: {instanceID: 12996}
     - Class: 114
-      Script: {instanceID: 13312}
+      Script: {instanceID: 13018}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 13056}
     - Class: 114
-      Script: {instanceID: 13516}
+      Script: {instanceID: 13130}
     - Class: 114
-      Script: {instanceID: 13534}
+      Script: {instanceID: 13206}
     - Class: 114
-      Script: {instanceID: 13600}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13624}
+      Script: {instanceID: 13322}
     - Class: 114
-      Script: {instanceID: 18102}
+      Script: {instanceID: 13372}
     - Class: 114
-      Script: {instanceID: 18110}
+      Script: {instanceID: 13510}
     - Class: 114
-      Script: {instanceID: 21432}
+      Script: {instanceID: 13576}
     - Class: 114
-      Script: {instanceID: 25480}
+      Script: {instanceID: 13594}
+    - Class: 114
+      Script: {instanceID: 13660}
+    - Class: 114
+      Script: {instanceID: 13684}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -393,6 +395,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: a9ca9c519a8d25fdd5a96e19cf9280e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: bornmonster
+  - hash:
+      serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -525,7 +533,7 @@ ScriptsOnlyBuild:
     className: FloppyHand
   - hash:
       serializedVersion: 2
-      Hash: ef5c43f921427d03730f6ea4c848f07d
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
@@ -637,6 +645,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 99d49eea2a54d10df32cbf474b5f5b9b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scoreManager
   - hash:
       serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
@@ -847,6 +861,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: ItemPackage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: monstercontrol
   - hash:
       serializedVersion: 2
       Hash: 24c723d753304a23cbebbd496d1f2d15
@@ -1155,6 +1175,12 @@ ScriptsOnlyBuild:
     className: ModalThrowable
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Gamecontrol
+  - hash:
+      serializedVersion: 2
       Hash: 6939772cb3ce775a8e8d99f332534491
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1441,30 +1467,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 99d49eea2a54d10df32cbf474b5f5b9b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: scoreManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: monstercontrol
-  - hash:
-      serializedVersion: 2
-      Hash: a9ca9c519a8d25fdd5a96e19cf9280e9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: bornmonster
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Gamecontrol
   platform: 19
   scenePathNames:
   - Assets/Scenes/GameScene.unity
